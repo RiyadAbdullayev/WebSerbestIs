@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-linear: linear-gradient(141deg, #969699, #1e1e22);
+  --primary-white: #fff;
+  --light-blue: #f8fafc;
+  --primary-black: #000;
+  --taxonomy-black: #030711;
+  --light-border: #e2e8f0;
+  --dark-border: #1d283a;
+}
+
+@layer components {
+  body {
+    @apply bg-[#f3f5f6] dark:bg-taxonomyBlack;
+  }
+
+  .menu-container {
+    @apply clip-bar1 invisible absolute top-28 flex h-[150px] w-64 flex-col justify-center rounded-xl bg-white pl-4 text-lg font-semibold opacity-0 shadow-menuShadow transition-all duration-500 mm:right-10 md:right-16 lg:right-44 z-10;
+  }
+
+  .menu-container.active {
+    @apply clip-bar2 visible opacity-100 transition-all duration-500;
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  .nav-link.active > span {
+    color: var(--taxonomy-black);
+  }
+
+  /* for loading animation */
+  @keyframes opacityDisco {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .loader svg {
+    position: relative;
+    animation: opacityDisco 1.3s ease-in-out infinite;
+  }
+
+  /* split text animation */
+  #split-text .char {
+    transform: translateY(100px);
+    transition: transform 0.6s ease;
+    background-image: var(--main-linear);
+    background-clip: text;
+  }
+
+  /*  */
+  /*  */
+}
+
+@layer utilities {
+  /* menu bar clips.. */
+  .clip-bar1 {
+    clip-path: circle(0% at 100% 120%);
+  }
+  .clip-bar2 {
+    clip-path: circle(150% at 100% 100%);
+  }
+
+  /* text-split clip */
+  .clip-split {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}

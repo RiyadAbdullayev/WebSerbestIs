@@ -1,0 +1,86 @@
+{
+  "introduction": {
+    "lang_title": "Change Language",
+    "title": "Hi, I'm Riyad.",
+    "location": "Baku",
+    "detail": "Essential skills for Linux System Administration include a solid understanding of the Linux operating system, knowledge of system administration and network configuration."
+  },
+  "skills": {
+    "title": "Skills",
+    "detail": "I mainly use these technologies for projects.",
+    "detail_plus": "These modern technologies will provide you with a fast and advanced experience."
+  },
+  "projects": {
+    "main_title": "Projects",
+    "detail": "Check out my latest projects that showcase my skills and expertise in linux.",
+    "link_btn": "Preview",
+    "project_1": {
+      "title": "CA"
+    },
+    "project_2": {
+      "title": "DNS"
+    },
+    "project_3": {
+      "title": "Email Server"
+    },
+    "project_4": {
+      "title": "Tomcat"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "testimonial_1": {
+      "rate": "Having a sysadmin friend is like having a personal tech guru on speed dial. They're always there to solve problems, give advice on IT issues, and even make recommendations for software and hardware upgrades.",
+      "person": "Alpay Abdullayev"
+    },
+    "testimonial_2": {
+      "rate": "Having a friend who is a system administrator changes a lot of things. They are patient, supportive, and always ready to lend a helping hand, whether it's fixing a malfunctioning laptop or installing new computer software.",
+      "person": "Yunis Aslanov"
+    },
+    "testimonial_3": {
+      "rate": "He is one of the most knowledgeable and hard working System Admins I have ever met. I have no doubt that it will be successful.",
+      "person": "Farid Buludlu"
+    },
+    "testimonial_4": {
+      "rate": "Riyad, he is really enthusiastic and very hardworking. I think it would be a great System Admin for teamwork. Good luck in your future career!",
+      "person": "Mehriban Khalilova"
+    },
+    "testimonial_5": {
+      "rate": "Patience and knowledge are two of the most necessary things for System Admins. You have two of them. Everyone will see this not as a word, but as a result in the projects!",
+      "person": "Rufat Abdullayev"
+    }
+  },
+  "footer": {
+    "detail": "Copyright \u00A9 2024 Riyad Abdullayev. All rights reserved."
+  },
+  "aboutme": {
+    "title": "Hi again, I'm Riyad.",
+    "paragraph_1": "As a Linux system administrator, I thrive on the intricacies of managing complex infrastructures and ensuring seamless operations. My passion lies in delving deep into the world of Linux, constantly expanding my knowledge and honing my skills to meet the evolving demands of technology. With a steadfast commitment to excellence, I approach each task with determination and enthusiasm, embracing challenges as opportunities for growth. I am dedicated to delivering top-notch solutions with unwavering consistency and a keen attention to detail. Ready to tackle any obstacle head-on, I am driven by a relentless pursuit of excellence in Linux system administration.",
+    "paragraph_2": "Currently, I work as a freelancer and study as a third-year student at Azerbaijan Technical University.",
+    "paragraph_3": "Outside of work, I love reading books and listening to different styles of music. I also enjoy spending time with my friends.",
+    "link_p": "If you want to chat, feel free to",
+    "reach": "reach out.",
+    "download": "Download CV"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "requiredValidation": "Please fill out required fields",
+    "submit_btn": "Submit",
+    "successMsg": "The message sent successfully.",
+    "name_input": {
+      "label": "Name",
+      "placeholder": "What Should I call you ?",
+      "maxValidation": "Please limit your input to 20 characters or less"
+    },
+    "email_input": {
+      "label": "Email Address",
+      "placeholder": "Where should I respond ?",
+      "validation": "Please enter a valid email address"
+    },
+    "message_input": {
+      "label": "Message",
+      "placeholder": "How can I help you ?",
+      "minValidation": "The input must be a minimum of 10 characters"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+import React, { useMemo } from "react";
+import { NavLink } from "react-router-dom";
+
+import Button from "../components/ui/Button";
+import BackHomeBtn from "../components/ui/BackHomeBtn";
+
+// My photo and Cv
+import OwnImg from "../assets/images/skills/redhat-icon-svgrepo-com.svg";
+import MYCV from "../assets/resume.pdf";
+
+import { useTranslation } from "react-i18next";
+
+const About = () => {
+  // useEffect(() => {
+  //     window.scrollTo(0, 0)
+  // }, []);
+
+  const { t } = useTranslation();
+
+  const ownImgMemo = useMemo(
+    () => <img src={OwnImg} alt="" className="rounded-xl" />,
+    []
+  );
+
+  return (
+    <>
+      <BackHomeBtn />
+
+      <section className="about-section flex flex-col items-center justify-center">
+        <div className="own-picture flex justify-center object-cover mm:w-[300px] sm:w-[400px]">
+          {ownImgMemo}
+        </div>
+
+        <div className="about-container dark:text-gray-100 mm:px-7 mm:text-center sm:text-justify lg:px-[20rem]">
+          <h2 className="bg-gradient-main bg-clip-text py-8 text-4xl font-semibold text-transparent dark:text-white">
+            {t("aboutme.title")}
+          </h2>
+          <p>{t("aboutme.paragraph_1")}</p> <br />
+          <p>{t("aboutme.paragraph_2")}</p> <br />
+          <p>{t("aboutme.paragraph_3")}</p> <br />
+          <p>
+            {t("aboutme.link_p")}
+            <NavLink
+              to="/contact"
+              className="ml-1 rounded-sm p-1 font-semibold underline decoration-taxonomyBlack transition-all duration-300 hover:bg-taxonomyBlack/30 dark:decoration-slate-100 dark:hover:bg-white dark:hover:text-taxonomyBlack dark:hover:decoration-taxonomyBlack"
+            >
+              {t("aboutme.reach")}
+            </NavLink>
+          </p>
+          <a href={MYCV}>
+            <Button className="button-left left mt-5" variant="primary">
+              {t("aboutme.download")}
+            </Button>
+          </a>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default About;

@@ -1,0 +1,86 @@
+{
+  "introduction": {
+    "lang_title": "Dili Dəyişdir",
+    "title": "Salam, mən Riyad.",
+    "location": "Bakı",
+    "detail": "Linux Sistem İdarəçilyi üçün əsas bacarıqlara Linux əməliyyat sistemi haqqında dərin anlayış, sistem administrasiyası və şəbəkə konfiqurasiyasına dair biliklər."
+  },
+  "skills": {
+    "title": "Bacarıqlar",
+    "detail": "Layihələr üçün əsasən bu texnologiyalardan istifadə edirəm.",
+    "detail_plus": "Bu müasir texnologiyalar sizə sürətli və qabaqcıl təcrübə təqdim edəcək."
+  },
+  "projects": {
+    "main_title": "Layihələr",
+    "detail": "Bacarıq və təcrübəmi nümayiş etdirən ən son layihələrimə baxın.",
+    "link_btn": "Önizləmə",
+    "project_1": {
+      "title": "CA"
+    },
+    "project_2": {
+      "title": "DNS"
+    },
+    "project_3": {
+      "title": "Email Server"
+    },
+    "project_4": {
+      "title": "Tomcat"
+    }
+  },
+  "testimonials": {
+    "title": "Rəylər",
+    "testimonial_1": {
+      "rate": "Sistem administratoru olan bir dosta sahib olmaq sürətli yığımda şəxsi texnoloji guruya sahib olmaq kimidir. Onlar problemləri həll etmək, İT məsələləri ilə bağlı məsləhətlər vermək və hətta proqram təminatı və aparat təminatının təkmilləşdirilməsi üçün tövsiyələr vermək üçün həmişə orada olurlar.",
+      "person": "Alpay Abdullayev"
+    },
+    "testimonial_2": {
+      "rate": "Sistem administratoru olan bir dostun olması çox şeyi dəyişir. Onlar səbirlidirlər, dəstək olurlar və hər zaman kömək əli uzatmağa hazırdırlar, istər nasaz bir noutbukun təmiri, istərsə də yeni bir kompüterin quraşdırılması. proqram təminatı",
+      "person": "Yunis Aslanov"
+    },
+    "testimonial_3": {
+      "rate": "Gördüyüm ən savadlı və çalışqan  Sistem Adminlərindən biridir. Onun uğurlu olacağından heç bir şübhəm yoxdur.",
+      "person": "Fərid Buludlu"
+    },
+    "testimonial_4": {
+      "rate": "Riyad, o həqiqətən həvəslidir və çox çalışqandır. Düşünürəm ki, teamwork üçün əla Sistem Admini olar. Gələcək karyerasında uğurlar!",
+      "person": "Mehriban Xəlilova"
+    },
+    "testimonial_5": {
+      "rate": "Səbr ve bilik Sistem Adminləri üçün ən çox lazım olan iki şeydir. Bunların iksidə sizdə var. Bunu bir söz olaraq yox, nəticə olaraq lahiyələrdə hər kəs görəcək!",
+      "person": "Rüfət Abdullayev"
+    }
+  },
+  "footer": {
+    "detail": "\u00A9 2024 Riyad Abdullayev. Bütün hüquqlar qorunur."
+  },
+  "aboutme": {
+    "title": "Bir daha salam, Mən Riyad.",
+    "paragraph_1": "Linux sistem inzibatçısı kimi mən mürəkkəb infrastrukturların idarə edilməsi və qüsursuz əməliyyatların təmin edilməsinin incəlikləri üzərində inkişaf edirəm. Mənim həvəsim Linux dünyasına dərindən girmək, biliklərimi daim genişləndirmək və texnologiyanın inkişaf edən tələblərinə cavab vermək üçün bacarıqlarımı təkmilləşdirməkdir. Mükəmməlliyə davamlı bir öhdəliyimlə, hər bir tapşırığa əzm və həvəslə yanaşıram, çətinlikləri inkişaf üçün fürsətlər kimi qəbul edirəm. Mən sarsılmaz ardıcıllıqla və təfərrüata diqqət yetirməklə yüksək səviyyəli həllər təqdim etməyə özümü həsr edirəm. İstənilən maneənin öhdəsindən gəlməyə hazıram, mən Linux sistem idarəçiliyində amansız mükəmməlliyə can atıram.",
+    "paragraph_2": "Hazırda frilanser olaraq işləyirəm və Azərbaycan Texniki Universitetində 3-cü kurs tələbəsi kimi oxuyuram.",
+    "paragraph_3": "İşdən kənar, kitab oxumağı və müxtəlif üslublarda musiqilər dinləməyi sevirəm. Həmçinin dostlarımla vaxt keçirməkdən zövq alıram.",
+    "link_p": "Söhbət və ya sifariş etmək istəyirsinizsə, buyurun",
+    "reach": "buradan çat.",
+    "download": "CV yüklə"
+  },
+  "contact": {
+    "title": "Əlaqə Saxlayın",
+    "requiredValidation": "Tələb olunan sahələri doldurun",
+    "successMsg": "Mesajınız uğurla göndərildi.",
+    "submit_btn": "Göndər",
+    "name_input": {
+      "label": "Ad",
+      "placeholder": "Sizi necə çağıra bilərəm ?",
+      "maxValidation": "Adınız 20 simvoldan az olmalıdır"
+    },
+    "email_input": {
+      "label": "Email Adresi",
+      "placeholder": "Cavabı hara göndərim ?",
+      "validation": "Düzgün email ünvanı daxil edin"
+    },
+    "message_input": {
+      "label": "Mesaj",
+      "placeholder": "Sizə necə kömək edə bilərəm ?",
+      "minValidation": "Ən az 10 simvol daxil etməlisiniz"
+    }
+  }
+}

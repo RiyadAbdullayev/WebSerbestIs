@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "project_address": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/CA?ref_type=heads",
+    "project_repo": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/CA?ref_type=heads",
+    "project_img": "https://www.securew2.com/wp-content/uploads/2020/05/546060-637199619021279203-16x9-1.jpg",
+    "project_title": "projects.project_1.title"
+  },
+  {
+    "id": 2,
+    "project_address": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/DNS?ref_type=heads",
+    "project_repo": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/DNS?ref_type=heads",
+    "project_img": "https://www.lifewire.com/thmb/-EmyFPpQ6Dpo9kBb9XV-sdgR9I4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4.jpg",
+    "project_title": "projects.project_2.title"
+  },
+  {
+    "id": 3,
+    "project_address": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/Email%20Server?ref_type=heads",
+    "project_repo": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/DNS?ref_type=heads",
+    "project_img": "https://www.linode.com/docs/guides/installing-squirrelmail-on-ubuntu-12-04/1488-squirrelmail_login.png",
+    "project_title": "projects.project_3.title"
+  },
+  {
+    "id": 4,
+    "project_address": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/HA%20Cluster?ref_type=headss",
+    "project_repo": "https://gitlab.com/linux_engineer/RHCE8/-/tree/main/Tomcat?ref_type=heads",
+    "project_img": "https://www.techstacks.com/.a/6a01156fbc6fe6970c0120a51c77e0970c-320wi",
+    "project_title": "projects.project_4.title"
+  }
+  
+]
